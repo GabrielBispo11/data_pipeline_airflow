@@ -4,8 +4,7 @@ Ao iniciar a construção deste data pipeline, nos propusemos a estabelecer um p
 
 Nesta fase, examinaremos os passos essenciais, que vão desde a configuração do ambiente I (OLTP) e ambiente II (OLAP), passando pelo processo de ETL até alcançar com êxito a conclusão da DAG no Airflow Web. Este processo inclui a implementação de notificações por e-mail para fins de monitoramento.
 
-
-
+![interface-airflow0web-dag](data/image/diagrama_data_pipeline.png)
 
 ## Pré-requisitos para instalação
 - Docker
@@ -21,9 +20,9 @@ As configurações de execução destas aplicação encontram-se no artigo escri
 
 Após iniciar o contêiner do Docker, o Airflow estará operacional em alguns instantes. Acesse o painel administrativo no navegador, digitando http://localhost:8080. A partir desse painel, você pode iniciar e monitorar o processamento em andamento. Explore as funcionalidades do Airflow para uma gestão eficiente dos fluxos de trabalho.
 
-![interface-airflow0web-dag](data/Image/dag_2.png)
+![interface-airflow0web-dag](data/image/dag_2.png)
 
-![interface-airflow0web-dag](data/Image/dag_1.png)
+![interface-airflow0web-dag](data/image/dag_1.png)
 
 
 
