@@ -22,7 +22,17 @@ Após iniciar o contêiner do Docker, o Airflow estará operacional em alguns in
 
 ![interface-airflow0web-dag](data/image/dag_2.png)
 
+Concluídos esses passos, podemos acessar a função "Graph View". Essa funcionalidade permite acompanhar o fluxo das execuções de tarefas e verificar, se necessário, possíveis erros nos logs de cada tarefa.
+
 ![interface-airflow0web-dag](data/image/dag_1.png)
+
+Conforme evidenciado na imagem acima, o fluxo de tarefas de ETL foi concluído com sucesso, sem nenhum tipo de erro. Aguardamos agora a notificação por e-mail sobre o sucesso da aplicação. Para isso, podemos verificar a caixa de entrada no serviço da mailtrap.io e ler a mensagem de sucesso configurada na aplicação de ETL anteriormente.
+
+
+
+## Conclusão
+
+Em resumo, a jornada do data pipeline abrangeu desde a coleta de dados até a execução bem-sucedida das tarefas de ETL. Utilizando Docker, Airflow, MySQL, PostgreSQL e serviços como Mailtrap.io, conseguimos construir um pipeline eficiente, automatizado e capaz de mover dados entre ambientes de forma confiável. A DAG no Airflow permitiu uma orquestração precisa, enquanto a notificação por e-mail ofereceu uma camada adicional de monitoramento. Este pipeline não apenas alcançou seu propósito inicial, mas também estabeleceu uma base sólida para futuras expansões e aprimoramentos em iniciativas de análise de dados.
 
 
 
