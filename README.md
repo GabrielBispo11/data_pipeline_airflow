@@ -6,6 +6,7 @@ Nesta fase, examinaremos os passos essenciais, que vão desde a configuração d
 
 
 
+
 ## Pré-requisitos para instalação
 - Docker
 - MySQL
@@ -19,6 +20,11 @@ As configurações de execução destas aplicação encontram-se no artigo escri
 ## Resultados
 
 Após iniciar o contêiner do Docker, o Airflow estará operacional em alguns instantes. Acesse o painel administrativo no navegador, digitando http://localhost:8080. A partir desse painel, você pode iniciar e monitorar o processamento em andamento. Explore as funcionalidades do Airflow para uma gestão eficiente dos fluxos de trabalho.
+
+![interface-airflow0web-dag](data/Image/dag_2.png)
+
+![interface-airflow0web-dag](data/Image/dag_1.png)
+
 
 
 
