@@ -1,5 +1,5 @@
 ### Para obter informações detalhadas sobre o processo de execução, visite nosso artigo no Medium:
-### 
+##
 
 import csv
 import mysql.connector

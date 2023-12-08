@@ -1,5 +1,5 @@
     ### Para obter informações detalhadas sobre o processo de execução, visite nosso artigo no Medium:
-    ### 
+    ##
 
 from airflow import DAG
 from airflow.utils.dates import days_ago
