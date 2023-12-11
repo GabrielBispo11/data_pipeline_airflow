@@ -1,5 +1,5 @@
 ### Para obter informações detalhadas sobre o processo de execução, visite nosso artigo no Medium:
-##
+## https://medium.com/@gabrielalmeidabispo/engenharia-de-fluxos-de-dados-desvendando-a-orquestra%C3%A7%C3%A3o-com-apache-airflow-1e542fff7c73
 
 import csv
 import mysql.connector
